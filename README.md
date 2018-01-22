@@ -15,6 +15,7 @@ https://esp-idf.readthedocs.io/en/v2.0/eclipse-setup-windows.html#eclipse-window
 Add .exe to file name in following commands
 
 python.exe ${IDF_PATH}/tools/windows/eclipse_make.py
+
 xtensa-esp32-elf-gcc.exe ${FLAGS} -E -P -v -dD "${INPUTS}"
 
 4. Clone  https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series.git 
